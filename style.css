@@ -1,0 +1,40 @@
+
+html{
+  background-color: yellowgreen;
+}
+
+ h1{
+  text-align: center;
+  color:yellowgreen
+ 
+} 
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 30vh;
+  padding: 10px;
+  background-color:black;
+  border-radius: 20px;
+}
+
+#result {
+  width: 96%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  color: black;
+  background-color: yellow;
+  border-radius: 20px;
+}
